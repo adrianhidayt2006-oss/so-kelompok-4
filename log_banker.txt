@@ -1,0 +1,16 @@
+Need: [[7, 4, 3], [1, 2, 2], [6, 0, 0], [0, 1, 1], [4, 3, 1]]
+  pilih C2: Work -> [5, 3, 2]
+  pilih C4: Work -> [7, 4, 3]
+  pilih C1: Work -> [7, 5, 3]
+  pilih C3: Work -> [10, 5, 5]
+  pilih C5: Work -> [10, 5, 7]
+Keadaan awal: SAFE ['C2', 'C4', 'C1', 'C3', 'C5']
+  pilih C2: Work -> [5, 3, 2]
+  pilih C4: Work -> [7, 4, 3]
+  pilih C1: Work -> [7, 5, 3]
+  pilih C3: Work -> [10, 5, 5]
+  pilih C5: Work -> [10, 5, 7]
+C2 minta (1,0,2): DIKABULKAN, urutan ['C2', 'C4', 'C1', 'C3', 'C5']
+C5 minta (3,3,0): DITUNDA: unsafe
+C1 minta (0,0,4): DITOLAK: melebihi Need
+C3 minta (4,0,0): MENUNGGU: melebihi Available
